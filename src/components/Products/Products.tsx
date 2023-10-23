@@ -56,13 +56,11 @@ export const Products: FunctionComponent = () => {
       const response = await axios.post(url, requestData, {
         headers,
       });
-      if (response.status === 200) {
-        setProducts(response.data);
-        setIsLoading(false);
-      } else {
-        setError(true);
-        setIsLoading(false);
-      }
+
+      console.log("response", response);
+
+      setProducts(response.data);
+      setIsLoading(false);
     } catch (error) {
       setError(true);
       setIsLoading(false);
