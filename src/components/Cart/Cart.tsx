@@ -1,4 +1,4 @@
-import { FunctionComponent, useEffect } from "react";
+import { FunctionComponent } from "react";
 import useLocalStorageState from "use-local-storage-state";
 
 import { Quantifier } from "../Quantifier";
