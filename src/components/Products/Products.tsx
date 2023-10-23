@@ -45,8 +45,6 @@ export const Products: FunctionComponent = () => {
   async function fetchData(url: string) {
     const headers = {
       "Content-Type": "application/json",
-      Cookie:
-        "connect.sid=s%253AC9UlQ9M1W1aslddIqBNrrk68Yx4GleaF.OyLqPkC%252FpbJKf070EG6KIJoS70bHaP5GOYXBXBV6hG8",
     };
 
     const requestData = {
